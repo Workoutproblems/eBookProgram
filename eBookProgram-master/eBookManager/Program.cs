@@ -14,6 +14,7 @@ namespace eBookManager
         [STAThread]
         static void Main()
         {
+            // app
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
