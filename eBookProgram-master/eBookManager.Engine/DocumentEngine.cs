@@ -21,6 +21,7 @@ namespace eBookManager.Engine
             }
             catch
             {
+                // return
                 returnTuple.error = true;
             }
             return returnTuple;
