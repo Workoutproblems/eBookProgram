@@ -13,6 +13,7 @@ namespace eBookManager.Helper
     {
         public static int ToInt(this string value, int defaultInteger = 0)
         {
+            // error handling
             try
             {
                 if (int.TryParse(value, out int validInteger))
