@@ -4,6 +4,7 @@ namespace eBookManager.Engine
 {
     public class Document
     {
+        // doc
         public string Title { get; set; }
         public string FileName { get; set; }
         public string Extension { get; set; }
